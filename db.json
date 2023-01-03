@@ -1,9 +1,207 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "categories": [{
+        "id": "1bec4292-cba9-4596-b9f4-6bcad7f4bf89",
+        "name": "Ngọc Hà Phạm",
+        "createdAt": 1672738231794,
+        "updatedAt": 1672738231794
+    }, {
+        "id": "58753471-a74d-4b5c-90c9-9558451c0ccc",
+        "name": "Mr. Như Ngà Nguyễn",
+        "createdAt": 1672738231794,
+        "updatedAt": 1672738231794
+    }, {
+        "id": "18b1efc1-f609-4267-8298-1cc25da41f2f",
+        "name": "Miss Minh Khánh Phùng",
+        "createdAt": 1672738231794,
+        "updatedAt": 1672738231794
+    }, {
+        "id": "3da7dd97-6568-47c7-b303-7b4db49504fa",
+        "name": "Nguyên Lộc Đoàn PhD",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795
+    }],
+    "products": [{
+        "categoryId": "1bec4292-cba9-4596-b9f4-6bcad7f4bf89",
+        "id": "d4da3375-bc31-4cb9-afc3-2a043ff366b5",
+        "name": "Bespoke Metal Hat",
+        "price": 47,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "1bec4292-cba9-4596-b9f4-6bcad7f4bf89",
+        "id": "0a57856c-326a-4046-80ea-f1b75d6f10d4",
+        "name": "Practical Rubber Fish",
+        "price": 23,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "1bec4292-cba9-4596-b9f4-6bcad7f4bf89",
+        "id": "d01efcff-17de-4ae5-a45f-d8c32c21bcbf",
+        "name": "Incredible Soft Chair",
+        "price": 723,
+        "description": "The Football Is Good For Training And Recreational Purposes",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "1bec4292-cba9-4596-b9f4-6bcad7f4bf89",
+        "id": "13c56192-9a76-4cb2-af86-5120a7299412",
+        "name": "Bespoke Cotton Cheese",
+        "price": 655,
+        "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "1bec4292-cba9-4596-b9f4-6bcad7f4bf89",
+        "id": "f9faeea6-21d2-44ab-9223-4069829bebbb",
+        "name": "Practical Granite Tuna",
+        "price": 436,
+        "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "58753471-a74d-4b5c-90c9-9558451c0ccc",
+        "id": "66a2b314-3ced-4d02-9934-61840faebcf0",
+        "name": "Recycled Soft Shirt",
+        "price": 481,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "58753471-a74d-4b5c-90c9-9558451c0ccc",
+        "id": "73e16d65-a8d8-4e1c-acc4-cf24a1a48fd5",
+        "name": "Electronic Rubber Chips",
+        "price": 436,
+        "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "58753471-a74d-4b5c-90c9-9558451c0ccc",
+        "id": "924b7b58-c32c-4fa9-86fc-adc2c6a87b1a",
+        "name": "Handcrafted Bronze Hat",
+        "price": 353,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "58753471-a74d-4b5c-90c9-9558451c0ccc",
+        "id": "835222aa-5ab9-4dbe-80d5-1a660aff5306",
+        "name": "Bespoke Metal Hat",
+        "price": 835,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "58753471-a74d-4b5c-90c9-9558451c0ccc",
+        "id": "68e054be-855d-46c2-9300-22176c22e6d2",
+        "name": "Ergonomic Concrete Table",
+        "price": 137,
+        "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "18b1efc1-f609-4267-8298-1cc25da41f2f",
+        "id": "33e52eae-2493-4253-bdd7-4920f8886216",
+        "name": "Awesome Concrete Bacon",
+        "price": 586,
+        "description": "The Football Is Good For Training And Recreational Purposes",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "18b1efc1-f609-4267-8298-1cc25da41f2f",
+        "id": "affff982-2f04-4154-bf1b-a6e66df3a909",
+        "name": "Recycled Concrete Bike",
+        "price": 807,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "18b1efc1-f609-4267-8298-1cc25da41f2f",
+        "id": "043e832d-1632-4581-9fa0-bcd234aa76f5",
+        "name": "Bespoke Frozen Soap",
+        "price": 159,
+        "description": "The Football Is Good For Training And Recreational Purposes",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "18b1efc1-f609-4267-8298-1cc25da41f2f",
+        "id": "9e44bc3f-958b-4a46-9e14-b7f177c51dfb",
+        "name": "Luxurious Soft Shoes",
+        "price": 17,
+        "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+        "createdAt": 1672738231795,
+        "updatedAt": 1672738231795,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "18b1efc1-f609-4267-8298-1cc25da41f2f",
+        "id": "86e3660b-e359-4662-ad71-3f7de2698beb",
+        "name": "Awesome Metal Towels",
+        "price": 644,
+        "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+        "createdAt": 1672738231796,
+        "updatedAt": 1672738231796,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "3da7dd97-6568-47c7-b303-7b4db49504fa",
+        "id": "8c126342-c026-4f18-87f2-2403155af700",
+        "name": "Oriental Metal Mouse",
+        "price": 675,
+        "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+        "createdAt": 1672738231796,
+        "updatedAt": 1672738231796,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "3da7dd97-6568-47c7-b303-7b4db49504fa",
+        "id": "feeb63e0-906f-46ad-8352-7c00ea057630",
+        "name": "Awesome Metal Ball",
+        "price": 881,
+        "description": "The Football Is Good For Training And Recreational Purposes",
+        "createdAt": 1672738231796,
+        "updatedAt": 1672738231796,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "3da7dd97-6568-47c7-b303-7b4db49504fa",
+        "id": "45e8b625-5d9a-49a9-b759-13b5401a474c",
+        "name": "Sleek Frozen Cheese",
+        "price": 885,
+        "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+        "createdAt": 1672738231796,
+        "updatedAt": 1672738231796,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "3da7dd97-6568-47c7-b303-7b4db49504fa",
+        "id": "a063a84c-6166-409d-ad8c-63dbd579e494",
+        "name": "Modern Frozen Tuna",
+        "price": 771,
+        "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+        "createdAt": 1672738231796,
+        "updatedAt": 1672738231796,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }, {
+        "categoryId": "3da7dd97-6568-47c7-b303-7b4db49504fa",
+        "id": "4994a7ea-a856-4d37-9c5c-d30e4a2cc91c",
+        "name": "Luxurious Granite Salad",
+        "price": 488,
+        "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+        "createdAt": 1672738231796,
+        "updatedAt": 1672738231796,
+        "thumbnailUrl": "https://loremflickr.com/300/300"
+    }],
+    "profile": {
+        "name": "Pho"
+    }
 }
