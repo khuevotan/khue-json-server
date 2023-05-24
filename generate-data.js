@@ -64,6 +64,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         profile: {
             name: "Pho",
         },
+        
     };
 
     //wirte db object to db.json
